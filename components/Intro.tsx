@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 import {motion} from 'framer-motion'
-import ProfilePic from '@/public/Neel.jpeg'
+import ProfilePic from '@/public/Neel.png'
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
