@@ -6,7 +6,6 @@ import Footer from '@/components/Footer'
 import { Toaster } from 'react-hot-toast'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import ThemeContextProvider from '@/context/theme-context'
-// import ParticlesBackground from '@/components/ParticlesBackground'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -31,7 +30,6 @@ export default function RootLayout({
 
       <ThemeContextProvider>
         <ActiveSectionContextProvider>
-          {/* <ParticlesBackground /> */}
           <ThemeSwitch />
           <Header />
           {children}
