@@ -9,13 +9,13 @@ import { useSectionInView } from '@/lib/hooks';
 import { useTheme } from '@/context/theme-context';
 
 const Experience = () => {
-  const { ref } = useSectionInView("Experience")
+  const { ref } = useSectionInView("Experience", 0.5)
   const { theme } = useTheme()
   return (
-    <section 
-      id="experience" 
-      className='scroll-mt-28 mb-28 sm:mb-40'
+    <section
       ref={ref}
+      id="experience"
+      className='scroll-mt-28 mb-28 sm:mb-40'
     >
       <SectionHeading> My experience</SectionHeading>
       <VerticalTimeline lineColor=''>
