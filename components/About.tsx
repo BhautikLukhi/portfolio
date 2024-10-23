@@ -30,7 +30,7 @@ const About = () => {
         </span>
         . I am also familiar with TypeScript and SQL databases. I am always looking to
         learn and explore new technologies.{" "}
-        <span> I am a lifelong learner and believe in continuous personal and professional development. I am always open to new opportunities and collaborations where I can contribute my skills, expertise, and passion to make a meaningful impact.</span>
+        <span> I am a crazy adaptive learner and believe in continuous personal and professional development. I am always open to new opportunities and collaborations where I can contribute my skills, expertise, and passion to make a meaningful impact.</span>
       </p>
 
       <p>
