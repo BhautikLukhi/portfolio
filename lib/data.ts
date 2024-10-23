@@ -36,17 +36,9 @@ export const experiencesData = [
     title: "Wipro Pvt. Ltd.",
     location: "Remote",
     description:
-      "Worked as a full stack developer for a client project based on GST listings. Also completed Cloud Engineer training and certified by Google Cloud as Associate Cloud Engineer",
+      "I worked as a backend developer for a client and gained more experience towards developing backend intensive applications. Here, I have also fine tuned my TypeScript and Database management skills",
     icon: React.createElement(CgWorkAlt),
     date: "May 2022",
-  },
-  {
-    title: "Lenditt Innovations LLP",
-    location: "Gujarat, India",
-    description:
-      "I worked as a backend developer at lenditt and gained more experience towards developing backend intensive applications. Here, I have also fine tuned my TypeScript and Database management skills",
-    icon: React.createElement(CgWorkAlt),
-    date: "Jan 2023",
   },
   {
     title: "Infynno Solutions LLP",
@@ -54,7 +46,7 @@ export const experiencesData = [
     description:
       "Got more exposure to work in Next.js and TailwindCSS to make eye pleasing user interfaces. Also worked in backend written in Node.js and MongoDB database.",
     icon: React.createElement(CgWorkAlt),
-    date: "July 2023",
+    date: "June 2023",
   },
   {
     title: "Surf Beyond AS",
