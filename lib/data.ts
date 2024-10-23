@@ -33,6 +33,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Surf Beyond AS",
+    location: "Remote",
+    description:
+      "Currently I am working on major system integration with third party server for IOT communication. Also work in front end dashboard made using Next.js and TailwindCSS.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Dec 2023",
+  },
+  {
     title: "Wipro Pvt. Ltd.",
     location: "Remote",
     description:
@@ -47,15 +55,7 @@ export const experiencesData = [
       "Got more exposure to work in Next.js and TailwindCSS to make eye pleasing user interfaces. Also worked in backend written in Node.js and MongoDB database.",
     icon: React.createElement(CgWorkAlt),
     date: "June 2023",
-  },
-  {
-    title: "Surf Beyond AS",
-    location: "Remote",
-    description:
-      "Currently I am working on major system integration with third party server for IOT communication. Also work in front end dashboard made using Next.js and TailwindCSS.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Dec 2023",
-  },
+  }
 ] as const;
 
 export const projectsData = [
