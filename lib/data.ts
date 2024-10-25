@@ -41,20 +41,20 @@ export const experiencesData = [
     date: "Dec 2023",
   },
   {
-    title: "Wipro Pvt. Ltd.",
-    location: "Remote",
-    description:
-      "I worked as a backend developer for a client and gained more experience towards developing backend intensive applications. Here, I have also fine tuned my TypeScript and Database management skills",
-    icon: React.createElement(CgWorkAlt),
-    date: "May 2022",
-  },
-  {
     title: "Infynno Solutions LLP",
     location: "Gujarat, India",
     description:
       "Got more exposure to work in Next.js and TailwindCSS to make eye pleasing user interfaces. Also worked in backend written in Node.js and MongoDB database.",
     icon: React.createElement(CgWorkAlt),
     date: "June 2023",
+  },
+  {
+    title: "Wipro Pvt. Ltd.",
+    location: "Remote",
+    description:
+      "I worked as a backend developer for a client and gained more experience towards developing backend intensive applications. Here, I have also fine tuned my TypeScript and Database management skills",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2022",
   }
 ] as const;
 
