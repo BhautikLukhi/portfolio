@@ -1,8 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import projectManagerImg from "@/public/project_manager.png";
-import twitterImg from "@/public/twitter.png";
-import collegeWebsiteImg from "@/public/college_web.png";
+import fcSchalkeImg from "@/public/fc_schalke.png";
+import hrAnalyticsImg from "@/public/hr_analytics.png";
+import salaryPredImg from "@/public/salary_pred.png";
 
 export const links = [
   {
@@ -36,15 +36,15 @@ export const experiencesData = [
     title: "Bielefeld University(Department of Sports Science)",
     location: "Bielefeld, Germany",
     description:
-      "Currently I am working  with Prof. Dr. Christian Deutscher on diverse sports research projects. Skilled in data scraping, statistical modeling, and visualizing insights from large datasets, including ~3M data points from marathons, hockey, and NBA reports.",
+      "Currently I am working  with Prof. Dr. Christian Deutscher on diverse sports research projects. Skilled in data scraping, statistical modeling, and visualizing insights from large datasets, including >3M data points from Bundesliga, Marathons, Hockey, and NBA L2M reports.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2024 - Present",
   },
   {
     title: "Hochschule Bielefeld",
-    llocation: "Bielefeld, Germany",
+    location: "Bielefeld, Germany",
     description:
-      "Developed privacy-preserving machine learning solutions for the CareTech OWL project, leveraging Fully Homomorphic Encryption (FHE) and Concrete-ML to securely train models on real-world sensor data while ensuring data confidentiality.",
+      "Learned and contributed to the development privacy-preserving machine learning solutions for the CareTech OWL project, leveraging Fully Homomorphic Encryption (FHE) and Concrete-ML to further securely train models on real-world sensor data while ensuring data confidentiality.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2024 - Aug 2024",
   },
@@ -52,7 +52,7 @@ export const experiencesData = [
     title: "Bielefeld University(Department of Mathematics)",
     location: "Bielefeld, Germany",
     description:
-      "Teaching Assistant for Mathematics 1 at Bielefeld University, conducting weekly 3 in-person tutorials and collaborating with Prof. Dr. Michael Hinz and fellow tutors",
+      "Teaching Assistant for Mathematics 1 at Bielefeld University, conducting weekly 3 in-person tutorials and collaborating with Prof. Dr. Michael Hinz and fellow tutors.",
     icon: React.createElement(CgWorkAlt),
     date: "Oct 2023 - Mar 2024",
   }
@@ -60,45 +60,47 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Project Management Site",
+    title: "FC Schalke Statistical Consulting",
     description:
-      "Partially functional and responsive project Management site for managing personal projects as tasks and share with others.",
-    tags: ["React", "Firebase", "Custom Hooks"],
-    imageUrl: projectManagerImg,
+      "Analyzed large and complex Bundesliga game data using clustering techniques to uncover patterns in player performance during 2vs1 situations.",
+    tags: ["python", "Excel", "Scikit-learn", "Seaborn", "Latex"],
+    imageUrl: fcSchalkeImg,
   },
   {
-    title: "Twitter clone",
+    title: "HR Analytics Power BI Dashboard",
     description:
-      "Tried to implement the Twitter user interface with responsive design using NextJS and Tailwind-CSS. Used NoSQL(Firestrore) database for manipulating tweets.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Firebase"],
-    imageUrl: twitterImg,
+      "Designed and developed an HR Analytics Power BI Dashboard from scratch, transforming raw data into actionable insights.",
+    tags: ["Power BI", "Excel", "Microsoft 365"],
+    imageUrl: hrAnalyticsImg,
   },
   {
-    title: "GEC college website",
+    title: "Salary Prediction Web app",
     description:
-      "In collaboration with 2 other developers we made a website for our college and showcase the culture with details about amenities and faculties.",
-    tags: ["React", "Node.js", "MongoDB", "Express.js"],
-    imageUrl: collegeWebsiteImg,
+      "Built a machine learning model using real-world data from Stack Overflow and developed a salary predictor web app and deployed the app using the Streamlit library.",
+    tags: ["python", "Streamlit", "Scikit-learn"],
+    imageUrl: salaryPredImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Nest.js",
-  "AWS",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Framer Motion",
+  "python",
+  "R",
+  "Latex",
+  "Pandas",
+  "NumPy",
+  "Matplotlib",
+  "Seaborn",
+  "BeautifulSoup",
+  "Selenium",
+  "TensorFlow",
+  "Keras",
+  "Scikit-learn",
+  "OpenCV",
+  "Git/GitHub",
+  "SQL",
+  "Power BI",
+  "Excel",
+  "REST-APIs",
+  "MS Office Suite",
+  "German(A2-B1)",
 ] as const;
