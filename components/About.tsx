@@ -20,22 +20,22 @@ const About = () => {
       <SectionHeading> About me </SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Computer Science</span>, I decided to pursue my
-        passion for programming.{" "}<span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
+        <span className="font-medium">Computer Engineering</span>, I decided to move to Germany to pursue my
+        passion for mathematics and programming.{" "}<span className="italic">My favorite part of Data Science</span> is the
+        real-world application of AI/ML. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          python, Machine Learning, Deep Learning, Data analysis, and Statistical Learning
         </span>
-        . I am also familiar with TypeScript and SQL databases. I am always looking to
+        . I am also familiar with R, JavaScript and SQL databases. I am always looking to
         learn and explore new technologies.{" "}
         <span> I am a crazy adaptive learner and believe in continuous personal and professional development. I am always open to new opportunities and collaborations where I can contribute my skills, expertise, and passion to make a meaningful impact.</span>
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and spend time with my loved ones.
+        <span className="italic">When I'm not coding</span>, I enjoy listening
+        to music, doing astrophotography, and cooking.
       </p>
     </motion.section>
   )

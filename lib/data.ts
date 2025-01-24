@@ -33,28 +33,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Surf Beyond AS",
-    location: "Remote",
+    title: "Bielefeld University(Department of Sports Science)",
+    location: "Bielefeld, Germany",
     description:
-      "Currently I am working on major system integration with third party server for IOT communication. Also work in front end dashboard made using Next.js and TailwindCSS.",
+      "Currently I am working  with Prof. Dr. Christian Deutscher on diverse sports research projects. Skilled in data scraping, statistical modeling, and visualizing insights from large datasets, including ~3M data points from marathons, hockey, and NBA reports.",
     icon: React.createElement(CgWorkAlt),
-    date: "Dec 2023",
+    date: "May 2024 - Present",
   },
   {
-    title: "Infynno Solutions LLP",
-    location: "Gujarat, India",
+    title: "Hochschule Bielefeld",
+    llocation: "Bielefeld, Germany",
     description:
-      "Got more exposure to work in Next.js and TailwindCSS to make eye pleasing user interfaces. Also worked in backend written in Node.js and MongoDB database.",
+      "Developed privacy-preserving machine learning solutions for the CareTech OWL project, leveraging Fully Homomorphic Encryption (FHE) and Concrete-ML to securely train models on real-world sensor data while ensuring data confidentiality.",
     icon: React.createElement(CgWorkAlt),
-    date: "June 2023",
+    date: "May 2024 - Aug 2024",
   },
   {
-    title: "Wipro Pvt. Ltd.",
-    location: "Remote",
+    title: "Bielefeld University(Department of Mathematics)",
+    location: "Bielefeld, Germany",
     description:
-      "I worked as a backend developer for a client and gained more experience towards developing backend intensive applications. Here, I have also fine tuned my TypeScript and Database management skills",
+      "Teaching Assistant for Mathematics 1 at Bielefeld University, conducting weekly 3 in-person tutorials and collaborating with Prof. Dr. Michael Hinz and fellow tutors",
     icon: React.createElement(CgWorkAlt),
-    date: "May 2022",
+    date: "Oct 2023 - Mar 2024",
   }
 ] as const;
 

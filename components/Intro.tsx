@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 import {motion} from 'framer-motion'
-import ProfilePic from '@/public/Neel.png'
+import ProfilePic from '@/public/Bhautik.png'
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -47,11 +47,10 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Neel.</span> I'm a{" "}
-        <span className="font-bold">Full-Stack developer (Backend heavy)</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">MERN stack development</span>.
+        <span className="font-bold">Hello, I'm Bhautik.</span> I am currently finishing up my Master's in {" "}
+        <span className="font-bold">Data Science. </span> 
+         I enjoy working with <span className="italic">complex Datasets</span>. My focus is{" "}
+        <span className="underline">Machine Learning and Deep Learning</span>.
       </motion.h1>
 
       <motion.div
@@ -73,17 +72,17 @@ const Intro = () => {
         </Link>
 
         <a 
-          href="/CV.pdf" 
+          href="/CV_Bhautikkumar.pdf" 
           download
           className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'> Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition' /> </a>
 
         <a 
-          href="https://www.linkedin.com/in/gorasiyaneel/"
+          href="https://www.linkedin.com/in/bhautik-lukhi-1b5759229"
           target='_blank'
           className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'><BsLinkedin/></a>
 
         <a
-          href="https://github.com/Neel2904"
+          href="https://github.com/BhautikLukhi"
           target='_blank'
           className='bg-white p-4 text-gray-700 text-[1.2rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'><FaGithubSquare/></a>
       </motion.div>
