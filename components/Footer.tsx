@@ -7,7 +7,7 @@ const Footer = () => {
         &copy; 2025 Bhautik. All rights reserved.
       </small>
       <p className='text-xs'>
-        <span className='font-semibold'>About this website:</span> buit with React and Next.js (App router and Server actions), Typescript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel Hosting
+        <span className='font-semibold'>About this website:</span> built with React and Next.js (App router and Server actions), Typescript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel Hosting
       </p>
     </footer>
   )

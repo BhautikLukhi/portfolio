@@ -3,6 +3,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import ActiveSectionContextProvider from '@/context/active-section-context'
 import Footer from '@/components/Footer'
+import { Analytics } from "@vercel/analytics/react"
 import { Toaster } from 'react-hot-toast'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import ThemeContextProvider from '@/context/theme-context'
