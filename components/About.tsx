@@ -34,8 +34,8 @@ const About = () => {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy listening
-        to music, doing astrophotography, and cooking.
+        <span className="italic">When I'm not learning</span>, I enjoy listening
+        to music, stargazing, working out and cooking.
       </p>
     </motion.section>
   )
