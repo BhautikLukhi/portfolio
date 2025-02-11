@@ -4,6 +4,7 @@ import React from 'react'
 import SectionHeading from './SectionHeading'
 import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks'
+import { Resend } from "resend";
 import { sendEmail } from '@/actions/sendEmail'
 import SubmitButton from './SubmitButton'
 import toast from 'react-hot-toast'
@@ -22,7 +23,7 @@ const Contact = () => {
     >
       <SectionHeading> Contact me </SectionHeading>
       <p className='text-gray-700 -mt-4 dark:text-white/80'>Please contact me directly at {" "}
-        <a href="mailto:mgorasiya1974@gmail.com" className='underline'>bhautiklukhi01@gmail.com</a> {" "} or through this form.
+        <a href="mailto:bhautikkumar.lukhi@uni-bielefeld.de" className='underline'>bhautikkumar.lukhi@uni-bielefeld.de</a> {" "} or through this form.
       </p>
 
       <form 
@@ -33,7 +34,7 @@ const Contact = () => {
             return
           }
 
-          toast.success("Email sent successfully!")
+          toast.success("Thank you! Bhautik will get back to you shortly😊")
         }}
         className='mt-10 flex flex-col dark:text-black'>
         <input 
