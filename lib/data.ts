@@ -60,6 +60,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Salary Prediction Web app",
+    description:
+      "Built a machine learning model using real-world data from Stack Overflow and developed a salary predictor web app and deployed the app using the Streamlit library.",
+    tags: ["python", "Streamlit", "Scikit-learn"],
+    imageUrl: salaryPredImg,
+    url: "https://salary-predictor-2024.streamlit.app",
+  },
+  {
     title: "FC Schalke Statistical Consulting",
     description:
       "Analyzed large and complex Bundesliga game data using clustering techniques to uncover patterns in player performance during 2vs1 situations.",
@@ -74,14 +82,6 @@ export const projectsData = [
     tags: ["Power BI", "Excel", "Microsoft 365"],
     imageUrl: hrAnalyticsImg,
     url: "https://app.powerbi.com/groups/me/reports/f096b884-84c5-40bb-80de-0d5a90d1a96b/ReportSection?experience=power-bi",
-  },
-  {
-    title: "Salary Prediction Web app",
-    description:
-      "Built a machine learning model using real-world data from Stack Overflow and developed a salary predictor web app and deployed the app using the Streamlit library.",
-    tags: ["python", "Streamlit", "Scikit-learn"],
-    imageUrl: salaryPredImg,
-    url: "https://salary-predictor-2024.streamlit.app",
   },
 ] as const;
 
