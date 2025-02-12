@@ -1,12 +1,14 @@
 'use client';
 
-import React from 'react'
-import { motion } from 'framer-motion'
-import SectionHeading from './SectionHeading'
+import React from 'react';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import SectionHeading from './SectionHeading';
 import { useSectionInView } from '@/lib/hooks';
+import Stargazing from '@/app/stargazing/page';
 
 const About = () => {
-  const {ref} = useSectionInView("About")
+  const { ref } = useSectionInView("About");
 
   return (
     <motion.section 
@@ -26,19 +28,22 @@ const About = () => {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          python, Machine Learning, Deep Learning, Data analysis, and Statistical Learning
+          Python, Machine Learning, Deep Learning, Data Analysis, and Statistical Learning
         </span>
-        . I am also familiar with R, JavaScript and SQL databases. I am always looking to
+        . I am also familiar with R, JavaScript, and SQL databases. I am always looking to
         learn and explore new technologies.{" "}
         <span> I am a crazy adaptive learner and believe in continuous personal and professional development. I am always open to new opportunities and collaborations where I can contribute my skills, expertise, and passion to make a meaningful impact.</span>
       </p>
 
       <p>
         <span className="italic">When I'm not learning</span>, I enjoy listening
-        to music, stargazing, working out and cooking.
+        to music,{" "}
+        <Link href="/stargazing" className="font-bold text-blue-500 underline">
+          stargazing (see here)
+        </Link>, working out, and cooking.
       </p>
     </motion.section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
