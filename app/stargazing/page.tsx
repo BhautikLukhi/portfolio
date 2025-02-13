@@ -7,7 +7,9 @@ import Link from 'next/link';
 const Stargazing = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-6">
-      <h1 className="text-3xl font-bold mb-6">My Glimpses of the Moon & Telescope 🔭🌕</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">
+      Exploring the Moon 🌕 through My Telescope🔭
+      </h1>
 
       {/* Images */}
       <div className="grid grid-cols-2 gap-4 mb-6">
