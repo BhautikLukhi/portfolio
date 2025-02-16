@@ -5,10 +5,12 @@ import React, { useEffect } from 'react'
 import {motion} from 'framer-motion'
 import ProfilePic from '@/public/Bhautik.png'
 import Link from 'next/link';
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
+import { BsArrowDown, BsLinkedin } from "react-icons/bs";
+//import { HiDownload } from "react-icons/hi";
+import { FaDownload } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { FaInstagram } from "react-icons/fa";
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 
@@ -69,13 +71,13 @@ const Intro = () => {
           }}
         > 
           Contact me here {" "}
-          <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
+          <BsArrowDown className='opacity-70 group-hover:translate-x-1 transition' />
         </Link>
 
         <a 
           href="/CV_Bhautikkumar.pdf" 
           download
-          className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'> Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition' /> </a>
+          className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'> Download CV <FaDownload className='opacity-60 group-hover:translate-y-1 transition' /> </a>
 
         <a 
           href="https://www.linkedin.com/in/bhautik-lukhi-1b5759229"
@@ -90,6 +92,10 @@ const Intro = () => {
           href="https://leetcode.com/u/bhautikCodes/"
           target='_blank'
           className='bg-white p-4 text-gray-700 text-[1.2rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'><SiLeetcode/></a>
+        <a
+          href="https://www.instagram.com/bhautik_lukhi/"
+          target='_blank'
+          className='bg-white p-4 text-gray-700 text-[1.2rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'><FaInstagram/></a>
       </motion.div>
     </section>
   )
