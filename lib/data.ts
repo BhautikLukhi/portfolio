@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import fcSchalkeImg from "@/public/fc_schalke.png";
-import squatsImg from "@/public/Squats.png";
+import squatsImg from "@/public/squats.png";
 import hrAnalyticsImg from "@/public/hr_analytics.png";
 import salaryPredImg from "@/public/salary_pred.png";
 
