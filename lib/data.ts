@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import fcSchalkeImg from "@/public/fc_schalke.png";
 import squatsImg from "@/public/squats.png";
+import nutrifyImg from "@/public/nutrify.png";
 import hrAnalyticsImg from "@/public/hr_analytics.png";
 import salaryPredImg from "@/public/salary_pred.png";
 
@@ -80,6 +81,14 @@ export const projectsData = [
     tags: ["Python", "Open-CV", "MediaPipe", "Computer Vision", "Node.js"],
     imageUrl: squatsImg,
     url: "https://github.com/BhautikLukhi/SquatFormGuru",
+  },
+  {
+    title: "Nutrify",
+    description:
+      "Built an interactive webapp to visualize nutrition and fitness data—calories, macros, water intake, and activities—using my real data from whole February month.",
+    tags: ["Python", "Pandas", "Streamlit", "Data Visualization", "Consistency"],
+    imageUrl: nutrifyImg, 
+    url: "https://bhautik-nutrify.streamlit.app",
   },
   {
     title: "FC Schalke Statistical Consulting",
