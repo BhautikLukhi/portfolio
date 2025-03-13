@@ -9,7 +9,7 @@ import { BsArrowDown, BsLinkedin } from "react-icons/bs";
 //import { HiDownload } from "react-icons/hi";
 import { FaDownload } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+//import { SiLeetcode } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa";
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
@@ -88,11 +88,11 @@ const Intro = () => {
           href="https://github.com/BhautikLukhi"
           target='_blank'
           className='bg-white p-4 text-gray-700 text-[1.2rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'><FaGithubSquare/></a>
-        <a
+        {/* <a
           href="https://leetcode.com/u/bhautikCodes/"
           target='_blank'
-          className='bg-white p-4 text-gray-700 text-[1.2rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'><SiLeetcode/></a>
-        <a
+          className='bg-white p-4 text-gray-700 text-[1.2rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'><SiLeetcode/></a> */}
+        <a 
           href="https://www.instagram.com/bhautik_lukhi/"
           target='_blank'
           className='bg-white p-4 text-gray-700 text-[1.2rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'><FaInstagram/></a>
