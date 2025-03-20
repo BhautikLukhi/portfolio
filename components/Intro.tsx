@@ -93,7 +93,7 @@ const Intro = () => {
           target='_blank'
           className='bg-white p-4 text-gray-700 text-[1.2rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'><SiLeetcode/></a> */}
         <a 
-          href="https://www.instagram.com/bhautik_lukhi/"
+          href="https://www.instagram.com/bhautik.py/"
           target='_blank'
           className='bg-white p-4 text-gray-700 text-[1.2rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'><FaInstagram/></a>
       </motion.div>
