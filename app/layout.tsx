@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { Toaster } from 'react-hot-toast'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import ThemeContextProvider from '@/context/theme-context'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -39,6 +40,7 @@ export default function RootLayout({
         </ActiveSectionContextProvider>
       </ThemeContextProvider>
       <Analytics />
+      <SpeedInsights />
 
       </body>
     </html>
