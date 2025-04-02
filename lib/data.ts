@@ -66,6 +66,15 @@ export const experiencesData = [
 
 
 export const projectsData = [
+
+  {
+    title: "Nutrify",
+    description:
+      "Built an interactive webapp to visualize nutrition and fitness data—calories, macros, water intake, and activities—using my real data from whole February-March month.",
+    tags: ["Python", "Pandas", "Streamlit", "Data Visualization", "Consistency"],
+    imageUrl: nutrifyImg, 
+    url: "https://bhautik-nutrify.streamlit.app",
+  },
   {
     title: "Salary Prediction Web app",
     description:
@@ -81,14 +90,6 @@ export const projectsData = [
     tags: ["Python", "Open-CV", "MediaPipe", "Computer Vision", "Node.js"],
     imageUrl: squatsImg,
     url: "https://github.com/BhautikLukhi/SquatFormGuru",
-  },
-  {
-    title: "Nutrify",
-    description:
-      "Built an interactive webapp to visualize nutrition and fitness data—calories, macros, water intake, and activities—using my real data from whole February month.",
-    tags: ["Python", "Pandas", "Streamlit", "Data Visualization", "Consistency"],
-    imageUrl: nutrifyImg, 
-    url: "https://bhautik-nutrify.streamlit.app",
   },
   {
     title: "FC Schalke Statistical Consulting",
