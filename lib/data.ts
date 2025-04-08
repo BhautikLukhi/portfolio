@@ -70,18 +70,10 @@ export const projectsData = [
   {
     title: "Nutrify",
     description:
-      "Built an interactive webapp to visualize nutrition and fitness data—calories, macros, water intake, and activities—using my real data from whole February-March month.",
+      "Built an interactive webapp to visualize my nutrition and fitness data from whole February-March month.",
     tags: ["Python", "Pandas", "Streamlit", "Data Visualization", "Consistency"],
     imageUrl: nutrifyImg, 
     url: "https://bhautik-nutrify.streamlit.app",
-  },
-  {
-    title: "Salary Prediction Web app",
-    description:
-      "Built a machine learning model using real-world data from Stack Overflow and developed a salary predictor web app and deployed the app using the Streamlit library.",
-    tags: ["python", "Streamlit", "Scikit-learn"],
-    imageUrl: salaryPredImg,
-    url: "https://salary-predictor-2024.streamlit.app",
   },
   {
     title: "SquatFormGuru",
@@ -99,6 +91,14 @@ export const projectsData = [
     imageUrl: fcSchalkeImg,
     url: "https://github.com/BhautikLukhi/Statistical-Consulting",
   },
+  {
+    title: "Salary Prediction Web app",
+    description:
+      "Built a machine learning model using real-world data from Stack Overflow and developed a salary predictor web app and deployed the app using the Streamlit library.",
+    tags: ["python", "Streamlit", "Scikit-learn"],
+    imageUrl: salaryPredImg,
+    url: "https://salary-predictor-2024.streamlit.app",
+  },  
   {
     title: "HR Analytics Power BI Dashboard",
     description:
