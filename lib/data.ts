@@ -70,7 +70,7 @@ export const projectsData = [
   {
     title: "Nutrify",
     description:
-      "Built an interactive webapp to visualize my nutrition and fitness data from whole February-March month.",
+      "Built an interactive webapp to visualize my nutrition and fitness data from February to March.",
     tags: ["Python", "Pandas", "Streamlit", "Data Visualization", "Consistency"],
     imageUrl: nutrifyImg, 
     url: "https://bhautik-nutrify.streamlit.app",
@@ -78,7 +78,7 @@ export const projectsData = [
   {
     title: "SquatFormGuru",
     description:
-      "Leveraged computer vision and pose estimation to analyze squat form, track reps, angles, and posture, providing real-time feedback for injury prevention.",
+      "Leveraged computer vision and pose estimation to analyze squat form, track reps, angles, and posture, providing instant feedback for injury prevention and better form.",
     tags: ["Python", "Open-CV", "MediaPipe", "Computer Vision", "Node.js"],
     imageUrl: squatsImg,
     url: "https://github.com/BhautikLukhi/SquatFormGuru",
