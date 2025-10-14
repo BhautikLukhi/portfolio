@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 import {motion} from 'framer-motion'
-import ProfilePic from '@/public/Bhautik.png'
+import ProfilePic from '@/public/IMG_9167.jpg';
 import Link from 'next/link';
 import { BsArrowDown, BsLinkedin } from "react-icons/bs";
 //import { HiDownload } from "react-icons/hi";
@@ -27,21 +27,24 @@ const Intro = () => {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image 
-              src={ProfilePic}
-              alt="Neel Portrait"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className='h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl'
-            ></Image>
+            src={ProfilePic}
+            alt="Bhautik Portrait"
+            width={300}
+            height={300}
+            quality={95}
+            priority={true}
+            className="h-32 w-32 sm:h-40 sm:w-40 md:h-48 md:w-48 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
+            />
+
           </motion.div>
           <motion.span 
-            className='text-3xl absolute bottom-0 right-0'
+            className="absolute bottom-2 right-2 text-4xl md:text-5xl"
             initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity:1, scale: 1 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "spring", stiffness: 125, delay: 0.1, duration: 0.7 }}
-          >👋</motion.span>
+          >
+            👋
+          </motion.span>
         </div>
       </div>
 

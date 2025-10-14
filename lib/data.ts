@@ -5,6 +5,7 @@ import squatsImg from "@/public/squats.png";
 import nutrifyImg from "@/public/nutrify.png";
 import hrAnalyticsImg from "@/public/hr_analytics.png";
 import salaryPredImg from "@/public/salary_pred.png";
+// import fcReport from @/public/Report_Consulting.pdf;
 
 export const links = [
   {
@@ -81,7 +82,7 @@ export const projectsData = [
       "Leveraged computer vision and pose estimation to analyze squat form, track reps, angles, and posture, providing instant feedback for injury prevention and better form.",
     tags: ["Python", "Open-CV", "MediaPipe", "Computer Vision", "Node.js"],
     imageUrl: squatsImg,
-    url: "https://github.com/BhautikLukhi/SquatFormGuru",
+    url: "https://drive.google.com/file/d/1P4G5QXl_j7iKerM2MmuDzanzevQ2iUTT/view",
   },
   {
     title: "FC Schalke Statistical Consulting",
@@ -89,7 +90,7 @@ export const projectsData = [
       "Analyzed large and complex Bundesliga game data using clustering techniques to uncover patterns in player performance during 2vs1 situations.",
     tags: ["python", "Excel", "Scikit-learn", "Seaborn", "Latex"],
     imageUrl: fcSchalkeImg,
-    url: "https://github.com/BhautikLukhi/Statistical-Consulting",
+    url: "/Report_Consulting.pdf",
   },
   {
     title: "Salary Prediction Web app",
