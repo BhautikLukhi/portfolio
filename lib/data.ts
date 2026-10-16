@@ -41,7 +41,7 @@ export const experiencesData = [
     description:
       "Currently I am working  with Prof. Dr. Christian Deutscher on diverse sports research projects. Skilled in data scraping, statistical modeling, and visualizing insights from large datasets, including >3M data points from Bundesliga, Marathons, Hockey, and NBA L2M reports.",
     icon: React.createElement(CgWorkAlt),
-    date: "May 2024 - Present",
+    date: "May 2024 - March 2026",
     url: "https://www.uni-bielefeld.de/fakultaeten/sportwissenschaft/arbeitsbereiche/ab-v/team/deutscher/",
   },
   {
@@ -71,10 +71,10 @@ export const projectsData = [
   {
     title: "Nutrify",
     description:
-      "Built an interactive webapp to visualize my nutrition and fitness data from February to March.",
+      "Built an interactive webapp to visualize my nutrition and fitness data for 3 months.",
     tags: ["Python", "Pandas", "Streamlit", "Data Visualization", "Consistency"],
     imageUrl: nutrifyImg, 
-    url: "https://bhautik-nutrify.streamlit.app",
+    url: "https://calories-feb-apr.streamlit.app",
   },
   {
     title: "SquatFormGuru",
@@ -132,5 +132,5 @@ export const skillsData = [
   "MS Office Suite",
   "React.js",
   "Node.js",
-  "German(A2-B1)",
+  "German(B1)",
 ] as const;
