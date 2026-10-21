@@ -60,7 +60,7 @@ export const experiencesData = [
       "Teaching Assistant for Mathematics 1 at Bielefeld University, conducting weekly 3 in-person tutorials and collaborating with Prof. Dr. Michael Hinz and fellow tutors.",
     icon: React.createElement(CgWorkAlt),
     date: "Oct 2023 - Mar 2024",
-    url: "https://ekvv.uni-bielefeld.de/kvv_publ/publ/Lehrende_Veranstaltungen.jsp;jsessionid=6A7D0C7FA93D061C467E19DEBE593D33?personId=39878381&zeigeAlle=1"
+    url: "https://ekvv.uni-bielefeld.de/kvv_publ/publ/Lehrende_Veranstaltungen.jsp?personId=39878381&zeigeAlle=1"
   }
 ] as const;
 
